@@ -73,14 +73,33 @@ console.log(idade)
 //var data = new Date()
 //console.log(data.getTime()/	31536000000)
 
-var data_envio = new Date("2018-03-20")
-data_envio = data_envio.getTime()
-var data_entrega = new Date("2018-04-06")
+//var data_envio = new Date("2018-03-20")
+//data_envio = data_envio.getTime()
+//var data_entrega = new Date("2018-04-06")
 //var res = new Date((data_entrega - data_envio)/86400000)
-data_entrega = data_entrega.getTime()
+//data_entrega = data_entrega.getTime()
 
-var resu = document.getElementById("dias_entrega")
+//var resu = document.getElementById("dias_entrega")
 
 
 
-resu.innerHTML = (data_entrega-data_envio)/86400000
+//resu.innerHTML = (data_entrega-data_envio)/86400000
+
+//metodos de tempo
+/*
+console.log('Mensagem1');
+window.setTimeout( function(){
+  console.log('Mensagem2')
+}, 3000)
+*/
+
+
+document.getElementById("mostrar-loader").onclick = function () {
+
+ 
+
+  document.getElementById("spinner-loader").style.display ="initial"
+
+  window.setTimeout(function(){ document.getElementById("spinner-loader").style.display ="none"},5000)
+
+}
