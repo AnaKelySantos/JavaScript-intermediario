@@ -271,6 +271,7 @@ if (num%2 == 0) {
   
 }
 */
+/*
 
 var num = 0
 
@@ -286,4 +287,16 @@ if (num%2 != 0) {
   num++
 
   
+}
+*/
+
+document.getElementById("mostrar_opcao").onclick = function () {
+  //var campo_select = document.getElementById("options")
+  //var indice_selecionado = campo_select.options.selectedIndex
+  //console.log(indice_selecionado)
+  //var valor_selecionado = campo_select.options[indice_selecionado].innerHTML
+  //document.getElementById("opcao_selecionada").innerHTML =valor_selecionado
+
+  var indice_selecionado = document.getElementById("options").value
+
 }
