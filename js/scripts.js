@@ -298,5 +298,7 @@ document.getElementById("mostrar_opcao").onclick = function () {
   //document.getElementById("opcao_selecionada").innerHTML =valor_selecionado
 
   var indice_selecionado = document.getElementById("options").value
+  document.getElementById("opcao_selecionada").innerHTML =indice_selecionado
 
+//document.getElementById("options").value ="opt3"
 }
