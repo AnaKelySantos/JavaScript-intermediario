@@ -379,4 +379,25 @@ if (num%2 != 0) {
         //}
     //}  
 //}
+//document.getElementById("exemplo").innerHTML="oi"
 
+//$("#exemplo").html("olá");
+
+//$("#esconder").click(function() {
+ // $(".exemplo").css("display", "none")
+//})
+
+
+$("#esconder").click(function() {
+ $(".exemplo").hide()
+})
+//$("*").hide()
+//$("div.exemplo").hide()
+//$("p:first").hide()
+//$("ul li.first-child").hide()
+//$("[href]").hide()
+//$("a[target='_blank']").hide()
+//$("a[target!='_blank']").hide()
+//$(":button").hide()
+//$("tr:even").hide()
+//$(":tr:odd").hide()
