@@ -401,3 +401,17 @@ $("#esconder").click(function() {
 //$(":button").hide()
 //$("tr:even").hide()
 //$(":tr:odd").hide()
+
+//var conteudo_html = $("#paragrafo-html").text()
+//var conteudo_html = $("#paragrafo-html").html()
+
+//console.log(conteudo_html)
+
+//$("#paragrafo-html").html("mudei")
+//var conteudo_html = $("#paragrafo-html").html()
+//console.log(conteudo_html)
+var url_link = $("#paragrafo-link").attr("href")
+console.log(url_link)
+$("#paragrafo-link").attr("href","http://servidores.rhbahia.ba.gov.br/premio-de-boas-praticas")
+var url_link = $("#paragrafo-link").attr("href")
+console.log(url_link)
